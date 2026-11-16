@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b14">
+    <title>Horizonte 2049 | Você Decide o Futuro da IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <main class="app-shell">
+        <header class="topbar">
+            <div class="brand">
+                <span class="brand-mark">AI</span>
+                <div>
+                    <strong>HORIZONTE</strong>
+                    <small>SIMULAÇÃO 2049</small>
+                </div>
+            </div>
+            <div class="status"><span></span> SISTEMA ONLINE</div>
+        </header>
+
+        <section class="hero" aria-label="Introdução">
+            <div class="eyebrow"><span>01</span> DECISÃO HUMANA // FUTURO DIGITAL</div>
+            <h1>Você decide<br><em>o futuro da IA.</em></h1>
+            <p class="lead">Cada escolha muda a história. Explore um futuro onde inteligência artificial e humanidade precisam aprender a dividir o mesmo espaço.</p>
+
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <span class="card-number">01</span>
+                    <strong>Escolha</strong>
+                    <p>Encare dilemas sobre tecnologia, educação, arte e trabalho.</p>
+                </div>
+                <div class="mission-card">
+                    <span class="card-number">02</span>
+                    <strong>Construa</strong>
+                    <p>Suas decisões formam uma visão única sobre o amanhã.</p>
+                </div>
+                <div class="mission-card">
+                    <span class="card-number">03</span>
+                    <strong>Descubra</strong>
+                    <p>Veja o futuro que suas escolhas ajudaram a criar.</p>
+                </div>
+            </div>
+
+            <div class="launch-row">
+                <button class="iniciar-btn"><span>Iniciar missão</span><b>↗</b></button>
+                <small>5 decisões · resultado personalizado</small>
+            </div>
+        </section>
+
+        <section class="game-panel" aria-live="polite">
+            <div class="game-meta">
+                <span class="phase-label">DECISÃO <b class="contador">01</b></span>
+                <span class="phase-label">2049 <i></i></span>
+            </div>
+            <div class="progress-track"><div class="progress-bar"></div></div>
+            <div class="question-layout">
+                <div class="question-index">Q<span class="pergunta-num">01</span></div>
+                <div>
+                    <p class="question-kicker">CENÁRIO EM ANÁLISE</p>
+                    <h2 class="caixa-perguntas"></h2>
+                </div>
+            </div>
+            <div class="choice-label">ESCOLHA UMA RESPOSTA</div>
+            <div class="caixa-alternativas"></div>
+        </section>
+
+        <section class="result-panel" aria-live="polite">
+            <div class="result-orbit"><span>2049</span></div>
+            <p class="question-kicker">SIMULAÇÃO CONCLUÍDA</p>
+            <h2 class="texto-titulo">Seu futuro foi definido.</h2>
+            <p class="resultado-intro">A trajetória construída pelas suas escolhas:</p>
+            <div class="resultado-box">
+                <span class="result-line"></span>
+                <p class="texto-resultado"></p>
+            </div>
+            <button class="novamente-btn"><span>Executar outra simulação</span><b>↻</b></button>
+        </section>
+
+        <footer>HORIZONTE 2049 <span>•</span> UMA EXPERIÊNCIA SOBRE IA, ESCOLHAS E FUTURO</footer>
+    </main>
+
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
